@@ -1,0 +1,27 @@
+.welcome {
+  height: 127px;
+  background: linear-gradient(
+    to bottom,
+    rgba(34, 168, 210, 0.2),
+    rgba(255, 0, 0, 0) 70.71%
+  );
+}
+
+.welcome__info {
+  display: flex;
+  align-items: center;
+  padding: 24px 0;
+  margin: 0 29px;
+}
+
+.welcome__info p {
+  color: var(--text-color);
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+.welcome__info img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}

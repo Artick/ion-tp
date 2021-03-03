@@ -1,0 +1,14 @@
+.disposition__header {
+  margin-bottom: 50px;
+}
+
+.disposition__navigation {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.disposition__title {
+  padding: 24px;
+}

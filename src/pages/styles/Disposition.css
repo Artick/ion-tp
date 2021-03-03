@@ -1,0 +1,7 @@
+.back-tealish {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 1%,
+    rgba(34, 168, 210, 0.1)
+  );
+}

@@ -1,0 +1,65 @@
+.loan__container {
+  padding-bottom: 20px;
+}
+
+.loan__slider {
+  position: relative;
+}
+
+.loan--title-text {
+  font-size: 1.4rem;
+  line-height: 25px;
+  font-weight: 600;
+  padding: 0 25px;
+}
+
+.loan__info {
+  text-align: center;
+  position: absolute;
+  left: calc(326px - 50%);
+  top: 55px;
+}
+
+.circular-slider {
+  position: absolute;
+  left: calc(275px - 50%);
+}
+
+.loan__info p {
+  margin: 0;
+  font-weight: 600;
+  color: #222b45;
+}
+
+.loan--month-payment {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+.loan--amount {
+  font-size: 0rem;
+  height: 33px;
+}
+
+.loan--months {
+  font-size: 1.4rem;
+  line-height: 1.71;
+}
+
+p.loan--blue-text {
+  font-size: 1.2rem;
+  line-height: 1.33;
+  color: var(--blue-action);
+}
+
+.loan__container a.button__blue {
+  padding: 14px 0;
+  margin: 40px auto;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 240px;
+}

@@ -1,0 +1,11 @@
+.movements {
+  margin-bottom: 110px;
+}
+
+.movements__header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 19px;
+  padding: 0 24px;
+}

@@ -1,0 +1,26 @@
+.balance__info {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: -50px;
+  padding: 12px;
+  border-radius: 4px;
+  box-shadow: 0 1px 9px 0 rgba(56, 56, 56, 0.2);
+  background: #ffffff;
+  background-image: linear-gradient(to bottom, #fefefe, #ffffff);
+  overflow: visible;
+}
+
+.balance__title {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  font-weight: 600;
+  display: inline;
+}
+
+.balance__available {
+  font-size: 3.4rem;
+  color: var(--available-balance);
+  font-weight: 600;
+  margin: 7px 0 0 0;
+  line-height: 40px;
+}

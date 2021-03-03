@@ -1,0 +1,46 @@
+.movements__list ul {
+  padding: 0;
+  margin: 0;
+}
+
+.movements__list li {
+  display: grid;
+  grid-template-columns: 30px 2fr 1fr;
+  grid-gap: 10px;
+  margin: 5px 0;
+  vertical-align: middle;
+  padding: 8px 24px;
+  border-bottom: 1px solid #bbb;
+}
+
+.movements__list li img {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+}
+
+.movement--title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.43;
+}
+
+.movement--description {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.67;
+}
+
+.movement--date {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.67;
+  text-align: end;
+}
+
+.movement--money {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.43;
+  text-align: end;
+}

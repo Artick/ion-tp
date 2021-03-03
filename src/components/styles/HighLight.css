@@ -1,0 +1,34 @@
+.highlight {
+  width: 375px;
+  position: absolute;
+  background-color: #783183;
+  margin-top: -20px;
+  padding: 40px 0;
+  z-index: -1;
+}
+
+.highlight__list {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.highlight__item {
+  width: 54px;
+  display: block;
+  text-align: center;
+}
+
+.highlight__item i {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.highlight__item p {
+  margin-top: -10px;
+  display: inline-block;
+  font-size: 0.8rem;
+  color: white;
+}
