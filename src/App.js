@@ -9,7 +9,7 @@ import NotFound from './pages/NotFound';
 
 function App () {
   return (
-    <BrowserRouter basename="/PruebaTecnica-a4d8a2c">
+    <BrowserRouter>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/disposition" component={Disposition} />
